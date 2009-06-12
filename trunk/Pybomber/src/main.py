@@ -1,7 +1,7 @@
 '''
 Created on 11/06/2009
 
-@author: gigolo
+@author: Vitor
 '''
 from Bomber import *
 
