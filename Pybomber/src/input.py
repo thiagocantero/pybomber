@@ -3,9 +3,8 @@ Created on 11/06/2009
 
 @author: Vitor
 '''
-import pygame   
 
-class Bomber(pygame.sprite.Sprite):
+class Keyboard():
     '''
     classdocs
     '''
@@ -15,7 +14,4 @@ class Bomber(pygame.sprite.Sprite):
         '''
         Constructor
         '''
-        self.speed = 30
-        
-        
         
