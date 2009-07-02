@@ -12,8 +12,8 @@ m = Map()
 m.ler_arquivo()
 m.desenhar_mapa(screen)
 m.jogadores = []
-bomber = Bomberman()
-m.jogadores.append(bomber)
+#bomber = Bomberman()
+#m.jogadores.append(bomber)
 
 def atualiza(self):
     for jogador in m.jogadores:

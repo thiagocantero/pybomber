@@ -20,19 +20,19 @@ class Bomberman(pygame.sprite.Sprite):
         
     def atualiza(self,time,tecla=None):
         if tecla == None:
-            
             for bomba in lista_bombas:
-                if bomba.esplodiu:
-                    lista_bombas.remove(i)
+                if bomba.explodiu:
+                    lista_bombas.remove(bomba)
                 else:
                     bomba.atualiza(time)
+                    
         
         
 
     def soltar_bomba(self,time):
         bomba = Bomba(self.pos,time)
-        bombaGroup = pygame.sprite.Group()
-        bomberGroup.add(bomba)
+        lista_bombas.append(bomba)
+        return bomba
        
         
         
