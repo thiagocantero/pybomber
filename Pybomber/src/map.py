@@ -49,3 +49,4 @@ class Map(object):
                 if self.matriz_arquivo[i][j] == '2':
                     screen.blit(self.bloco_indestrutivel,(j*tamanho_do_bloco + coluna,i*tamanho_do_bloco+coluna))
         
+        
